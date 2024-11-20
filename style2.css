@@ -1,0 +1,140 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    /* background-image: url(food.jpg); */
+    /* background-image: url(Greenry.jpg); */
+    background-size: cover;
+    background-position: 0px -130px;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    height: 50px;
+    width: 100vw;
+    background-color: #c48525;
+    /* background-color: #132a13; */
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 30px;
+}
+.home{
+    margin:0px 40px;
+    font-weight: bold;
+}
+.searchbar{
+    
+}
+.search{
+    height: 35px;
+    width: 658px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    font-size: 14px;
+    background-color: #d9dcc4;
+    /* background-color: #ecf39e; */
+    /* margin-left: 100px; */
+}
+ .contents{
+    width: 30%;
+    margin-right: 6%;
+ }
+ul{
+    width:100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+/* Blog Header */
+#blog-header, #contact-header {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+#blog-header h1, #contact-header h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#blog-header p, #contact-header p {
+    color: #333;
+    font-size: 1.1rem;
+}
+
+/* Blog Articles */
+#blog-articles {
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+#blog-articles article {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+#blog-articles h2 {
+    font-size: 1.8rem;
+    color: #3498db;
+}
+
+.read-more {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Contact Form */
+#contact-form {
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+#contact-form h2 {
+    color: #3498db;
+    margin-bottom: 1rem;
+}
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#contact-form input, #contact-form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#contact-form button {
+    padding: 0.75rem;
+    background-color:#c48525;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #2980b9;
+}

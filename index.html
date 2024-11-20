@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHE-Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h2>HELLO</h2>
+        </div>
+        <!-- <div class="home">
+            <a href="index.html">HOME</a>
+        </div> -->
+        <!-- <div class="searchbar">
+            <input type="search" placeholder="Search" class="search">
+        </div> -->
+        <div class="contents">
+            <ul id="ul">
+                <a href="index.html"><li>HOME</li></a>
+                <a href="about.html"><li>ABOUT US</li></a>
+                <a href="contact.html"><li>CONTACT</li></a>
+                <a href="blog.html"><li>BLOG</li></a>
+            </ul>
+        </div>
+    </nav>
+    <main>
+       <section class=hero_section>
+        <div class="hero">
+            <div class="quote box1">
+                <p>The food you waste could feed someone in need</p>
+                <div class="block1"></div>
+            </div>
+            <div class="quote box2">
+                <div class="block2"></div>
+                <p>Every meal matters: reduce, reuse, and rethink food waste</p>
+            </div>
+        </div>
+        <div class="hero_cover">
+            <!-- <p>Save Food, Save the Planet</p> -->
+        </div>
+       </section>
+    </main>
+    <section class="about_section">
+        <div class="about"></div>
+    </section>
+    <section class="fun1">
+        <div class="title1">
+            <h1>How You Can Reduce Food Waste</h1>
+        </div>
+        <div class="methods">
+            <a href="meals.html" target="_main" class="plan box3">
+                <p id="para"> PLAN MEALS</p>
+            <div class="method_cover"></div></a>
+            <a href="leftover.html" target="_main" class="leftovers box3">
+                <pre id="para"> LEFTOVER
+CREATIVITY</pre>
+            <div class="method_cover"></div></a>
+            <a href="composting" target="_main" class="composting box3">
+            <p id="para">COMPOSTING</p>
+            <div class="method_cover"></div></a>
+            
+        </div>
+        <div class="cal">
+            <h1>FOOD WASTE CALCULATOR</h1>
+            <div class="input">
+                <input type="number" id="waste-input" placeholder="Enter food waste in kg">
+            <button onclick="calculateWaste()">Calculate</button>
+            <p id="result"></p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
